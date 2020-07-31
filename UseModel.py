@@ -67,3 +67,45 @@ while True:
     if cv2.waitKey(25) & 0xFF == ord('q'):
         cv2.destroyAllWindows()
         break
+
+ # box = boxes.copy()
+
+        # disparity=self.disparity_extractor.compute(image_np, right_disp)
+        # disp = np.divide(disparity, 16.0)        
+        # img_disp=cv2.normalize(disp,None, 0, 255, cv2.NORM_MINMAX,dtype=cv2.CV_8UC3)
+
+        # print("\n\nNew Frame")
+        # for i in range (0, num_detections):
+        #     if(scores[0,i] > 0.5):
+        #         box[0,i,0] = boxes[0,i,0] * self.height
+        #         box[0,i,1] = boxes[0,i,1] * self.width
+        #         box[0,i,2] = boxes[0,i,2] * self.height
+        #         box[0,i,3] = boxes[0,i,3] * self.width
+        #         centerX = int(box[0,i,1] + (box[0,i,3] - box[0,i,1])/2)
+        #         centerY = int(box[0,i,0] + (box[0,i,2] - box[0,i,0])/2)
+        #         # print("Top Left Corner Coordinates: ({}, {})".format(box[0,i,1],box[0,i,0]))
+        #         print("Center Coordinates: ({}, {})".format(centerX, centerY))
+                
+        #         center_disparity = disp[centerY, centerX]
+        #         depth = 0.41245282 * self.fx / center_disparity
+        #         x = (centerX - self.cx) * depth / self.fx
+        #         y = (centerY - self.cy) * depth / self.fy
+        #         z = depth
+
+        #         print("3D Center Location: x = {}, y = {}, z = {}".format(x, y, z))
+        #         if(classes[0,i] == 2):
+        #             print('Processing Plant Detected with confidence {} % and box: {}'.format(scores[0,i] * 100, box[0,i,:]))
+        #         elif (classes[0,i] == 3):
+        #             print('Rock Detected with confidence {} and box: {}'.format(scores[0,i], box[0,i,:]))
+        #         elif (classes[0,i] == 1):
+        #             print('Cubesat Detected with confidence {} and box: {}'.format(scores[0,i], box[0,i,:]))
+            
+        
+        # # Display output
+        # try:
+        #     cv2.imshow('CubeSat Detection', img_disp)
+        # except:
+        #     pass
+        
+        # if cv2.waitKey(1) & 0xFF == ord('q'):
+        #     cv2.destroyAllWindows()
