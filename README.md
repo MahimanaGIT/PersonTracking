@@ -6,6 +6,8 @@ This tutorial is inspired by following tutorials:
 
 > [How to run TensorFlow Object Detection model on Jetson Nano](https://www.dlology.com/blog/how-to-run-tensorflow-object-detection-model-on-jetson-nano/)
 
+<img src="https://github.com/MahimanaGIT/PersonTracking/blob/master/images/gazebo_detection.gif" width="500" height="500" />
+
 ### Requirements:
 1. Tensorflow 1.15
 2. Python 2.7
@@ -100,8 +102,10 @@ Use the frozen path from "./models/fine_tuned_model/frozen_inference_graph.pb" w
 >   python UseModel.py
 
 ## For Deploying on Jetson Nano
+
 <img src="https://developer.nvidia.com/sites/default/files/akamai/embedded/images/jetsonNano/JetsonNano-DevKit_Front-Top_Right_trimmed.jpg" width="500" height="500" />
 
+<img src="https://github.com/MahimanaGIT/PersonTracking/blob/master/images/person_detection.gif" width="500" height="500" />
 
 Use the existing trained model and optimize it to run on Jetson nano by making some changes to the existing graph:
 
