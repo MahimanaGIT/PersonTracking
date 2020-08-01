@@ -101,7 +101,7 @@ Use the frozen path from "./models/fine_tuned_model/frozen_inference_graph.pb" w
 
 ## For Deploying on Jetson Nano
 
-![Jetson Nano](https://developer.nvidia.com/sites/default/files/akamai/embedded/images/jetsonNano/JetsonNano-DevKit_Front-Top_Right_trimmed.jpg | 250x250)
+![Jetson Nano](https://developer.nvidia.com/sites/default/files/akamai/embedded/images/jetsonNano/JetsonNano-DevKit_Front-Top_Right_trimmed.jpg =250x250)
 
 Use the existing trained model and optimize it to run on Jetson nano by making some changes to the existing graph:
 
