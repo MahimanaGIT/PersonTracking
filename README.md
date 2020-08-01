@@ -13,6 +13,8 @@ Clone the repository for object_detection_api: [object_detection_api](https://gi
 
 Annotate the images of the dataset using [LabelImg](https://github.com/tzutalin/labelImg), save all the labels in "annotations" folder in the repository.
 
+This tutorial uses **Tensorflow verison 1.15** for training as well as for use of model.
+
 The repository should be of the following for:
 > Object Detection Repostiory:
 >   - data
@@ -74,9 +76,9 @@ Step 10: Configure Model Training Pipeline i.e. "pipeline.config" file in the fo
 3. Change the path to train input_path to "./data/train_labels.record", evaluation input_path to "./data/test_labels.record"
 4. Change the label_map_path in both train and evaluation input reader to the same label_map.pbtxt file "./data/label_map.pbtxt"
 
-Step 11: To launch tensorboard, execute the following command:
+Step 11: To launch tensorboard, execute the following command in a new terminal:
 
-    "tensorboard --logdir=./models/training"
+>   tensorboard --logdir=./models/training
 
 Step 13: Start the training running the script and giving the arguments:
 
