@@ -9,7 +9,7 @@ This tutorial is inspired by following tutorials:
 The following steps are for making a custom dataset, if anyone wants to save image from a camera, the following repository will be useful:
 [Dataset Builder](https://github.com/MahimanaGIT/DatasetBuilder)
 
-Clone the repository for object_detection_api: [object_detection_api](https://github.com/tensorflow/models) from tensorflow
+Clone the repository for object_detection_api in any location you feel comfortable: [object_detection_api](https://github.com/tensorflow/models) from tensorflow
 
 Annotate the images of the dataset using [LabelImg](https://github.com/tzutalin/labelImg), save all the labels in "annotations" folder in the repository.
 
