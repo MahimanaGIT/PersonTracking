@@ -12,16 +12,16 @@ Annotate the images of the dataset using [LabelImg](https://github.com/tzutalin/
 '''
 The repository should be of the following for:
 Object Detection Repostiory:
-    > data/
-        > images/
-            > ".jpg" files
-        > annotations/
-            > ".xml" files from LabelImg
-        > test_labels/
-            > Separate the  test labels
-        > train_labels/
-            > Separate the train labels
-    > models
+    - data/
+        - images/
+            - ".jpg" files
+        - annotations/
+            - ".xml" files from LabelImg
+        - test_labels/
+            - Separate the  test labels
+        - train_labels/
+            - Separate the train labels
+    - models
     
 '''
 Step 1: Saving custom images for the dataset
