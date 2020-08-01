@@ -6,6 +6,10 @@ This tutorial is inspired by following tutorials:
 
 > [How to run TensorFlow Object Detection model on Jetson Nano](https://www.dlology.com/blog/how-to-run-tensorflow-object-detection-model-on-jetson-nano/)
 
+### Requirements:
+1. Tensorflow 1.15
+2. Python 2.7
+
 The following steps are for making a custom dataset, if anyone wants to save image from a camera, the following repository will be useful:
 [Dataset Builder](https://github.com/MahimanaGIT/DatasetBuilder)
 
@@ -13,7 +17,6 @@ Clone the repository for object_detection_api in any location you feel comfortab
 
 Annotate the images of the dataset using [LabelImg](https://github.com/tzutalin/labelImg), save all the labels in "annotations" folder in the repository.
 
-This tutorial uses **Tensorflow verison 1.15** for training as well as for use of model.
 
 The repository should be of the following for:
 > Object Detection Repostiory:
