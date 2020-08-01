@@ -13,13 +13,13 @@ Annotate the images of the dataset using [LabelImg](https://github.com/tzutalin/
 The repository should be of the following for:
 Object Detection Repostiory:
     - data/
-        - images/
+        - images
             - ".jpg" files
-        - annotations/
+        - annotations
             - ".xml" files from LabelImg
-        - test_labels/
+        - test_labels
             - Separate the  test labels
-        - train_labels/
+        - train_labels
             - Separate the train labels
     - models
     
