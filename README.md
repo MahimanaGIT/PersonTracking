@@ -7,7 +7,7 @@ This tutorial is inspired by following tutorials:
 > [How to run TensorFlow Object Detection model on Jetson Nano](https://www.dlology.com/blog/how-to-run-tensorflow-object-detection-model-on-jetson-nano/)
 
 ### Requirements:
-1. ![Tensorflow 1.15](https://www.google.com/url?sa=i&url=https%3A%2F%2Fdeveloper.nvidia.com%2Fembedded%2Fjetson-nano-developer-kit&psig=AOvVaw3f3fBXpcuznwT-7RHO_iKR&ust=1596403872003000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOC73P_5-uoCFQAAAAAdAAAAABAD)
+1. ![Tensorflow 1.15](https://cdn-images-1.medium.com/max/1200/1*iDQvKoz7gGHc6YXqvqWWZQ.png)
 2. Python 2.7
 
 The following steps are for making a custom dataset, if anyone wants to save image from a camera, the following repository will be useful:
