@@ -1,6 +1,8 @@
 # Custom Object Detection using Tensorflow On Jetson Nano
 
-This tutorial is inspired by following tutorials:
+This tutorial is an implementation of full pipeline from creating a custom dataset, annotate it, training SSD-Mobilenet model using transfer learning on a custom dataset and deploy it NVIDIA's Jetson Nano
+
+Inspired by following tutorials:
 > [Step by Step: Build Your Custom Real-Time Object Detector](https://towardsdatascience.com/detailed-tutorial-build-your-custom-real-time-object-detector-5ade1017fd2d)
 
 
