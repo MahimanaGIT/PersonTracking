@@ -10,9 +10,9 @@ The following steps are for making a custom dataset, if anyone wants to save ima
 Annotate the images of the dataset using [LabelImg](https://github.com/tzutalin/labelImg)
 
 
->The repository should be of the following for:
->Object Detection Repostiory:
->    - data/
+> The repository should be of the following for:
+> Object Detection Repostiory:
+>   - data/
 >        - images
 >            - ".jpg" files
 >       - annotations
@@ -22,6 +22,10 @@ Annotate the images of the dataset using [LabelImg](https://github.com/tzutalin/
 >        - train_labels
 >            - Separate the train labels
 >   - models
+>        - pretrained_model
+>        - fine_tune_model
+>        - training
+>        - trt_model
     
 
 Step 1: Saving custom images for the dataset
