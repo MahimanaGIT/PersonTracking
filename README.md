@@ -1,9 +1,29 @@
-# Object Detection On Tensorflow
+# Custom Object Detection using Tensorflow On Jetson Nano
 
-Using transfer learning on SSD MobileNet v2 to train Object Detection on custom Dataset
+This tutorial is inspired by following tutorials:
+[Step by Step: Build Your Custom Real-Time Object Detector](https://towardsdatascience.com/detailed-tutorial-build-your-custom-real-time-object-detector-5ade1017fd2d)
+[How to run TensorFlow Object Detection model on Jetson Nano](https://www.dlology.com/blog/how-to-run-tensorflow-object-detection-model-on-jetson-nano/)
 
-The steps are inspired by the article "https://towardsdatascience.com/detailed-tutorial-build-your-custom-real-time-object-detector-5ade1017fd2d"
+The following steps are for making a custom dataset, if anyone wants to save image from a camera, the following repository will be useful:
+[Dataset Builder](https://github.com/MahimanaGIT/DatasetBuilder)
 
+Annotate the images of the dataset using [LabelImg](https://github.com/tzutalin/labelImg)
+
+'''
+The repository should be of the following for:
+Object Detection Repostiory:
+    > data/
+        > images/
+            > ".jpg" files
+        > annotations/
+            > ".xml" files from LabelImg
+        > test_labels/
+            > Separate the  test labels
+        > train_labels/
+            > Separate the train labels
+    > models
+    
+'''
 Step 1: Saving custom images for the dataset
 
 Step 2: Saving corresponding xml files for every images of the dataset using LabelImg
