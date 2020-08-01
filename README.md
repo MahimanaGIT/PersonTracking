@@ -1,8 +1,8 @@
 # Custom Object Detection using Tensorflow On Jetson Nano
 
 This tutorial is inspired by following tutorials:
-[Step by Step: Build Your Custom Real-Time Object Detector](https://towardsdatascience.com/detailed-tutorial-build-your-custom-real-time-object-detector-5ade1017fd2d)
-[How to run TensorFlow Object Detection model on Jetson Nano](https://www.dlology.com/blog/how-to-run-tensorflow-object-detection-model-on-jetson-nano/)
+> [Step by Step: Build Your Custom Real-Time Object Detector](https://towardsdatascience.com/detailed-tutorial-build-your-custom-real-time-object-detector-5ade1017fd2d)
+> [How to run TensorFlow Object Detection model on Jetson Nano](https://www.dlology.com/blog/how-to-run-tensorflow-object-detection-model-on-jetson-nano/)
 
 The following steps are for making a custom dataset, if anyone wants to save image from a camera, the following repository will be useful:
 [Dataset Builder](https://github.com/MahimanaGIT/DatasetBuilder)
