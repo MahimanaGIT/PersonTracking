@@ -47,7 +47,7 @@ This script will convert the ".xml" files from the two corresponding folders and
 
 Step 5: Exporting the python path to add the object detection from tensorflow object detection API: 
 
->   export PYTHONPATH=$PYTHONPATH:~/repo/object_detection/object_detection/models/research/:~/repo/object_detection/object_detection/models/research/slim/
+>   "export PYTHONPATH=$PYTHONPATH:~/repo/object_detection/object_detection/models/research/:~/repo/object_detection/object_detection/models/research/slim/"
 
 Step 6: Run the following command in terminal from the directory "object_detection/models/research/" for compiling the proto buffers:
 
