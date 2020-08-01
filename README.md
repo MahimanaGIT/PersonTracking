@@ -9,7 +9,7 @@ This tutorial is inspired by following tutorials:
 The following steps are for making a custom dataset, if anyone wants to save image from a camera, the following repository will be useful:
 [Dataset Builder](https://github.com/MahimanaGIT/DatasetBuilder)
 
-Annotate the images of the dataset using [LabelImg](https://github.com/tzutalin/labelImg)
+Annotate the images of the dataset using [LabelImg](https://github.com/tzutalin/labelImg), save all the labels in "annotations" folder in the repository.
 
 
 The repository should be of the following for:
