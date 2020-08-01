@@ -18,9 +18,9 @@ The repository should be of the following for:
 >       - annotations
 >            - ".xml" files from LabelImg
 >        - test_labels
->            - Separate the  test labels
+>            - Separate the  test labels (".xml" files)
 >        - train_labels
->            - Separate the train labels
+>            - Separate the train labels (".xml" files)
 >   - models
 >        - pretrained_model
 >        - fine_tune_model
