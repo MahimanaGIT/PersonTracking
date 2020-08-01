@@ -11,6 +11,7 @@ The following steps are for making a custom dataset, if anyone wants to save ima
 
 Annotate the images of the dataset using [LabelImg](https://github.com/tzutalin/labelImg), save all the labels in "annotations" folder in the repository.
 
+Separate the ".xml" files according to test and train data and save them in train_labels and test_labels folder in the repository.
 
 The repository should be of the following for:
 > Object Detection Repostiory:
