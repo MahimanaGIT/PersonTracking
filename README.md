@@ -7,7 +7,7 @@ This tutorial is inspired by following tutorials:
 > [How to run TensorFlow Object Detection model on Jetson Nano](https://www.dlology.com/blog/how-to-run-tensorflow-object-detection-model-on-jetson-nano/)
 
 ### Requirements:
-1. ![Tensorflow 1.15](https://cdn-images-1.medium.com/max/1200/1*iDQvKoz7gGHc6YXqvqWWZQ.png)
+1. Tensorflow 1.15
 2. Python 2.7
 
 The following steps are for making a custom dataset, if anyone wants to save image from a camera, the following repository will be useful:
@@ -100,6 +100,8 @@ Use the frozen path from "./models/fine_tuned_model/frozen_inference_graph.pb" w
 >   python UseModel.py
 
 ## For Deploying on Jetson Nano
+
+![Jetson Nano](https://developer.nvidia.com/sites/default/files/akamai/embedded/images/jetsonNano/JetsonNano-DevKit_Front-Top_Right_trimmed.jpg)
 
 Use the existing trained model and optimize it to run on Jetson nano by making some changes to the existing graph:
 
