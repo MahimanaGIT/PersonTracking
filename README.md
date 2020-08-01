@@ -100,6 +100,8 @@ Use the frozen path from "./models/fine_tuned_model/frozen_inference_graph.pb" w
 >   python UseModel.py
 
 ## For Deploying on Jetson Nano
+<img src="https://developer.nvidia.com/sites/default/files/akamai/embedded/images/jetsonNano/JetsonNano-DevKit_Front-Top_Right_trimmed.jpg" width="500" height="500" />
+
 
 Use the existing trained model and optimize it to run on Jetson nano by making some changes to the existing graph:
 
