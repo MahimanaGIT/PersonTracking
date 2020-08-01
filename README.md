@@ -12,7 +12,7 @@ Annotate the images of the dataset using [LabelImg](https://github.com/tzutalin/
 
 The repository should be of the following for:
 > Object Detection Repostiory:
->   - data/
+>   - data
 >        - images
 >            - ".jpg" files
 >       - annotations
