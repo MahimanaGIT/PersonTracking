@@ -26,7 +26,7 @@ The repository should be of the following for:
 >        - fine_tune_model
 >        - training
 >        - trt_model
-    
+>   - All the codes in the repository    
 
 Step 1: Saving custom images for the dataset
 
